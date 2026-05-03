@@ -3,3 +3,7 @@ txt = "Hello, welcome to my world."
 x = txt.find("e", 5, 10)
 
 print(x)
+
+txt2 = "Hello, welcome to my world."
+
+print(txt.find("q"))
