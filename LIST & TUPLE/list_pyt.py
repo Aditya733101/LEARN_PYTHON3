@@ -10,3 +10,17 @@ name = ["12", "13", "14"]
 print(name[1])
 name[1] = "30"
 print(name)
+# if iterate from last index -
+print(name[-1])
+
+# ------------------------------------------------------------------------
+#This will return the items from position 2 to 5.
+
+#Remember that the first item is position 0,
+#and note that the item in position 5 is NOT included
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5]) 
+print(thislist[:4])
+if "apple" in thislist:
+    print("yes : apple is in the fruite list")
